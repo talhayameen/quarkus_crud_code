@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TereSol Pvt Ltd</title>
+</head>
+
+<body>
+    <script src="getAllStudent.js">
+    </script>
+
+    <h1 style="color: rgb(6, 37, 63); text-align: center; text-decoration: underline;">Student Affairs</h1>
+
+    </br>
+    </br></br>
+    <!-- <button id="getStudents" onclick="getAllStudents()">Get All Students </button> 
+<span id="studentData"></span> -->
+
+<form style="text-align: center;">
+
+
+    <a href="http://0.0.0.0:8080/danish/studentDetails" style="color:cornflowerblue ; background-color:whitesmoke ;">Student Details</a>
+
+     <!-- <a  id="studentDetail" value="Student Details" style="background-color:whitesmoke; text-decoration: underline;">Student Detail</a>|  -->
+     <a onclick="studentRegistration()" id="StudentRegistration" value="Student Details" style="background-color:whitesmoke; text-decoration: underline;">Student Registration</a>| 
+     <span type="button" value="Student Profile Update" style="background-color:whitesmoke; text-decoration: underline;">Student Profile Update</span>| 
+     <span type="button" value="Student Profile Delete" style="background-color:whitesmoke; text-decoration: underline;">Student Profile Remove</span> 
+    
+    
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        
+        <div id="registration" hidden="true">
+
+            Id: <input type="text" name="id" id="sid">
+            Name: <input type="text" name="name" id="sname" >
+            Class: <input type="text" name="sclass" id="sclass">
+            <br>
+            <br>
+            <br>
+            <input type="button" onclick="studentRegistrationScene()">Submit</button>
+        </div>
+        
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+</body>
+
+
+
+</html>
