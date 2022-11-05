@@ -8,6 +8,7 @@ public class StudentDto{
 
     private int user_id;
     private String user_name;
+    
     private String user_class;
     
     public int getUser_id() {
