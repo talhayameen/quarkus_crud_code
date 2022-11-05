@@ -8,7 +8,7 @@ public class StudentDto{
 
     private int user_id;
     private String user_name;
-    
+
     private String user_class;
     
     public int getUser_id() {
@@ -17,7 +17,7 @@ public class StudentDto{
     public void setUser_id(int user_id) {
         this.user_id = user_id;
     }
-    public String getUser_name() {
+    public String getUser_name( ) {
         return user_name;
     }
     public void setUser_name(String user_name) {
